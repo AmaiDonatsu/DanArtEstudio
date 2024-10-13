@@ -1,0 +1,4 @@
+export const CHANGE_COLOR = 'CHANGE_COLOR';
+export const SHOW_COLOR_MIXER = 'SHOW_COLOR_MIXER';
+export const DRAW_MODE = 'DRAW_MODE';
+export const CHANGE_CANVAS_SIZE = 'CHANGE_CANVAS_SIZE';
