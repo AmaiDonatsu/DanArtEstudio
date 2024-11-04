@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import ColorMixer from "./editorComponents/colorMixer";
 import Canvas from "./editorComponents/canvas";
+import LayersSelector from "./editorComponents/layersSelector";
 
 const UIEditor = () => {
     return(
@@ -22,6 +23,8 @@ const UIEditor = () => {
             <View style={styles.barraR}>
                 <View>
                     <ColorMixer />
+                    <LayersSelector />
+
                 </View>
             </View>
 

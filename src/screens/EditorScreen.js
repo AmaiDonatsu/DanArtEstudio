@@ -3,7 +3,6 @@ import { View, Text, StyleSheet } from "react-native";
 import MainLayOut from "../LayOuts/mainLayout";
 import UIEditor from "../components/uiEditor";
 
-
 const EditorScreen = () => {
     return (
       <View style={styles.container}>
